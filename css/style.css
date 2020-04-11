@@ -47,16 +47,10 @@ nav{
 .projects-sec{    
     width: 100%;
     background-color: #606060;
-    height: 1200px;
+    height: 1400px;
     text-align: center;
     display:inline-block;
     color: #FAFAFA;
-}
-@media only screen
-and (min-width : 320px) {
-    .projects-sec{    
-    height: 1400px;
-}
 }
 .experience-sec{
     width: 100%;
