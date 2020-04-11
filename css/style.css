@@ -175,3 +175,7 @@ td{
 .experiences > a:hover{
    color: #FAFAFA; 
 }
+.experience-table{
+    width: 80%;
+    height: 100%;
+}
