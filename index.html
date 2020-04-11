@@ -41,10 +41,14 @@
                <tr><td>E</td></tr>
            </table>
        </div>
-       <div class="column rightc">Hi</div>
+       <div class="column rightc">
+           <div class="section-info"></div>
+       </div>
    </div>    
    <div class="skills-sec row" id="skills">
-       <div class="column leftca">Hi</div>
+       <div class="column leftca">
+           <div class="section-info"></div>
+       </div>
        <div class="column rightca headingtext">
             <table>
                <tr><td>S</td></tr>
@@ -69,10 +73,14 @@
                <tr><td>S</td></tr>
            </table>
        </div>
-       <div class="column rightc">Hi</div>
+       <div class="column rightc">
+           <div class="section-info"></div>
+       </div>
    </div>
    <div class="achievements-sec row" id="achievements">
-       <div class="column leftca">Hi</div>
+       <div class="column leftca">
+           <div class="section-info"></div>
+       </div>
        <div class="column rightca headingtext">
             <table>
                <tr><td>A</td></tr>
@@ -99,7 +107,7 @@
      e.preventDefault();
      var target = $(this).attr('href');
      $('html, body').animate({
-       scrollTop: ($(target).offset().top)
+       scrollTop: ($(target).offset().top - 70)
      }, 1000);
     });
    </script>
