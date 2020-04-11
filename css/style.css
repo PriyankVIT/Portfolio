@@ -154,3 +154,24 @@ td{
 .projects > a:hover{
    color: #FAFAFA; 
 }
+.center{
+    text-align: center;
+}
+.experiences{
+    color: #FAFAFA;
+    text-align: left;
+    padding: 0px;
+    font-size: 27px;
+}
+.experiences > a{
+    display: block;
+    color: #474747;
+    text-align: left;
+    padding: 0;
+    text-decoration: none;
+    font-size: 20px;
+    outline: none;
+}
+.experiences > a:hover{
+   color: #FAFAFA; 
+}
