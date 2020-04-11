@@ -47,7 +47,7 @@ nav{
 .projects-sec{    
     width: 100%;
     background-color: #606060;
-    height: 900px;
+    height: 1200px;
     text-align: center;
     display:inline-block;
     color: #FAFAFA;
@@ -132,10 +132,25 @@ a:hover{
     margin-right: 10%;
     height: 85%;
 }
-.skills-table{
+.section-table{
     width: 100%;
     height: 100%;
 }
 td{
     text-align: center;
+}
+.projects{
+    text-align: left;
+}
+.projects > a{
+    display: block;
+    color: #ABB6B2;
+    text-align: left;
+    padding: 0;
+    text-decoration: none;
+    font-size: 20px;
+    outline: none;
+}
+.projects > a:hover{
+   color: #474747; 
 }
