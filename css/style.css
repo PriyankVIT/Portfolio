@@ -71,7 +71,6 @@ footer{
 ul{
     margin: 0;
     list-style-type: none;
-    list-style-type: none;
     padding: 0;
     overflow: hidden;
     margin-left: 5%;
@@ -161,7 +160,7 @@ td{
     color: #FAFAFA;
     text-align: left;
     padding: 0px;
-    font-size: 27px;
+    float: none;
 }
 .experiences > a{
     display: block;
