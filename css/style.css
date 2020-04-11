@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.landingdiv{
+    width: 100%;
+    height: 1080px;
+    font-size: 25px;
+}
+.landingtext{
+    margin: 0 auto;
+    padding-top: 500px;
+    text-align: center;
+    color: #474747;
+    padding-right: 5%
+
+        
+}
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #474747;
+    position: fixed;
+}
+.about-sec{
+    width: 100%;
+    background-color: #606060;
+    height: 900px;
+    text-align: center;
+    display:inline-block;    
+    color: #FAFAFA;
+}
+.skills-sec{
+    width: 100%;
+    background-color: #052A35;
+    height: 900px;
+    text-align: center;
+    display: inline-block;
+    color: #FAFAFA;
+}
+.projects-sec{    
+    width: 100%;
+    background-color: #606060;
+    height: 900px;
+    text-align: center;
+    display:inline-block;
+    color: #FAFAFA;
+}
+.achievements-sec{
+    width: 100%;
+    background-color: #052A35;
+    height: 900px;
+    text-align: center;
+    display:inline-block;
+    color: #FAFAFA;
+}
+footer{
+    width: 100%;
+    background-color: #1A1A1A;
+    height: 500px;
+    display:inline-block;
+    text-align: center;
+    color: #FAFAFA;
+}
+ul{
+    margin: 0;
+    list-style-type: none;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 25px 18px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color: #ABB6B2;
+}
+.right{
+    float: right;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  float: left;
+    text-align: center;
+}
+
+.leftc {
+  width: 25%;
+}
+
+.rightc {
+  width: 75%;
+}
+.leftca {
+  width: 75%;
+}
+
+.rightca {
+  width: 25%;
+}
+.headingtext{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 400px;
+    font-size: 35px
+}

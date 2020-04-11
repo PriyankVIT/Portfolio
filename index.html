@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/parallax.js"></script>
+</head>
+<body>
+   <nav>
+       <ul>
+           <li><a href="#home" class="scrollTo"><strong>Priyank Kaushik</strong></a></li>
+           <li class="right"><a href="#contact" class="scrollTo">Contact</a></li>
+           <li class="right"><a href="#achievements" class="scrollTo">Achievements</a></li>           
+           <li class="right"><a href="#projects" class="scrollTo">Projects</a></li>
+           <li class="right"><a href="#skills" class="scrollTo">Skills</a></li>     
+           <li class="right"><a href="#about" class="scrollTo">About Me</a></li>
+       </ul>
+   </nav>
+   <div class="landingdiv" id="home" data-parallax="scroll" data-image-src="images/parallaximage.jpg">
+       <div class="landingtext">
+           <h1>Welcome, I'm Priyank Kaushik.<br>This is my Portfolio.</h1>
+       </div>       
+   </div>
+   <div class="about-sec row" id="about">
+       <div class="column leftc headingtext">About Me</div>
+       <div class="column rightc">Hi</div>
+   </div>    
+   <div class="skills-sec row" id="skills">
+       <div class="column leftca">Hi</div>
+       <div class="column rightca headingtext">Skills</div>
+   </div>
+   <div class="projects-sec row" id="projects">
+       <div class="column leftc headingtext">Projects</div>
+       <div class="column rightc">Hi</div>
+   </div>
+   <div class="achievements-sec row" id="achievements">
+       <div class="column leftca">Hi</div>
+       <div class="column rightca headingtext">Achievements</div>
+   </div>
+   <footer>
+       <div class="btext" id="contact">
+           <h1>Contact Us</h1>
+       </div>
+   </footer>
+   <script>
+         $(".scrollTo").on('click', function(e) {
+     e.preventDefault();
+     var target = $(this).attr('href');
+     $('html, body').animate({
+       scrollTop: ($(target).offset().top)
+     }, 1000);
+    });
+   </script>
+</body>
+</html>
