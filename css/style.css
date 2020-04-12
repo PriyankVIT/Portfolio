@@ -179,3 +179,49 @@ td{
     width: 80%;
     height: 100%;
 }
+.foot-row {
+  display: flex;
+}
+
+.foot-col {
+  float: left;
+}
+.footleft{
+    width: 50%;
+    text-align: left;
+    height: 100%;
+    border-right: 1px solid white;
+}
+.footright{
+    width: 50%;
+    text-align: left;
+    height: 100%;
+}
+.pers-details{
+    margin: 0 auto;
+    width: 45%;
+    color: #FAFAFA;
+}
+.links{
+    margin: 0 auto;
+    width: 45%;
+    color: #FAFAFA;
+}
+.link > a:link,a:visited,a:active{
+    color: #FAFAFA;
+    text-align: left;
+    text-decoration: none;
+    outline: none; 
+}
+.link > a:hover{
+    color: #ABB6B2;
+}
+.mail > a:link,a:visited,a:active{
+    color: #FAFAFA;
+    text-align: left;
+    text-decoration: none;
+    outline: none; 
+}
+.mail > a:hover{
+    color: #ABB6B2;
+}
