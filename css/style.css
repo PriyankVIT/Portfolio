@@ -225,3 +225,43 @@ td{
 .mail > a:hover{
     color: #ABB6B2;
 }
+.namephoto{
+    height: 35%;
+}
+.desc{
+    height: 35%;
+}
+.study{
+    height: 30%;
+}
+.col{
+    width: 50%;
+    margin: 0 auto;
+    color: #FAFAFA;
+}
+.desc{
+    margin: 0 auto;
+    color: #FAFAFA;
+    font-size: 20px;
+    text-align: justify;
+}
+.name{
+    font-size: 35px;
+}
+.edu{
+    text-align: center;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
