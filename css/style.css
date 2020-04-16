@@ -187,20 +187,21 @@ td{
   float: left;
 }
 .footleft{
-    width: 60%;
-    text-align: left;
+    width: 50%;
+    text-align: center;
     height: 100%;
+    box-sizing: border-box;
 }
 .footright{
-    width: 40%;
-    text-align: left;
+    width: 50%;
+    text-align: center;
     height: 100%;
+    box-sizing: border-box;
 }
 .pers-details{
     margin: 0 auto;
     width: 100%;
     color: #FAFAFA;
-    padding-left: 35%;
 }
 .links{
     margin: 0 auto;
